@@ -1,0 +1,116 @@
+{
+    "Buckets": [
+        {
+            "Name": "app-api-v2-development",
+            "CreationDate": "2020-11-16T12:14:55+00:00"
+        },
+        {
+            "Name": "app-api-v2-production",
+            "CreationDate": "2020-11-12T10:18:27+00:00"
+        },
+        {
+            "Name": "app-api-v2-staging",
+            "CreationDate": "2020-11-12T15:50:07+00:00"
+        },
+        {
+            "Name": "config-bucket-419139595179",
+            "CreationDate": "2020-11-02T12:31:28+00:00"
+        },
+        {
+            "Name": "connect-017ade596fab",
+            "CreationDate": "2020-06-16T19:54:49+00:00"
+        },
+        {
+            "Name": "connect-1524b6d7080e",
+            "CreationDate": "2020-07-02T05:29:11+00:00"
+        },
+        {
+            "Name": "connect-547620c74379",
+            "CreationDate": "2020-06-22T19:50:59+00:00"
+        },
+        {
+            "Name": "connect-72c64a2233b3",
+            "CreationDate": "2020-07-02T05:36:18+00:00"
+        },
+        {
+            "Name": "connect-c24eaa1e7a95",
+            "CreationDate": "2020-07-02T05:42:26+00:00"
+        },
+        {
+            "Name": "connect-ce0ed05ad06a",
+            "CreationDate": "2020-06-22T19:52:26+00:00"
+        },
+        {
+            "Name": "connect-dd57e973f511",
+            "CreationDate": "2020-06-16T19:58:43+00:00"
+        },
+        {
+            "Name": "elasticbeanstalk-ap-southeast-2-419139595179",
+            "CreationDate": "2020-06-16T20:54:42+00:00"
+        },
+        {
+            "Name": "elasticbeanstalk-eu-central-1-419139595179",
+            "CreationDate": "2020-06-22T21:03:35+00:00"
+        },
+        {
+            "Name": "splend",
+            "CreationDate": "2019-09-19T11:44:10+00:00"
+        },
+        {
+            "Name": "splend-ci",
+            "CreationDate": "2020-11-16T16:08:23+00:00"
+        },
+        {
+            "Name": "splend-ci-badges",
+            "CreationDate": "2020-06-17T01:24:47+00:00"
+        },
+        {
+            "Name": "splend-devops",
+            "CreationDate": "2020-06-17T11:10:45+00:00"
+        },
+        {
+            "Name": "splend-members-public",
+            "CreationDate": "2020-06-17T01:24:47+00:00"
+        },
+        {
+            "Name": "splend-mytime",
+            "CreationDate": "2020-06-23T02:19:54+00:00"
+        },
+        {
+            "Name": "splend-pay-backup",
+            "CreationDate": "2020-11-20T10:26:04+00:00"
+        },
+        {
+            "Name": "splend-reports-production",
+            "CreationDate": "2019-08-21T11:50:58+00:00"
+        },
+        {
+            "Name": "splend-response-cache-development",
+            "CreationDate": "2019-10-02T06:54:24+00:00"
+        },
+        {
+            "Name": "splend-response-cache-production",
+            "CreationDate": "2019-10-02T06:53:58+00:00"
+        },
+        {
+            "Name": "splend-response-cache-staging",
+            "CreationDate": "2019-10-02T06:54:09+00:00"
+        },
+        {
+            "Name": "splend-wordpress-backups",
+            "CreationDate": "2019-08-08T14:58:15+00:00"
+        },
+        {
+            "Name": "textract-console-us-east-1-a05dd731-6b19-477c-bd3f-04490b9b60f1",
+            "CreationDate": "2019-06-14T06:10:48+00:00"
+        },
+        {
+            "Name": "uk-audit-logs",
+            "CreationDate": "2020-04-28T15:43:39+00:00"
+        }
+    ],
+    "Owner": {
+        "DisplayName": "admin",
+        "ID": "aca5e5bb28e05c2c1253e041fbb3c9cf2f82792c14644ce91244e5335c479898"
+    }
+}
