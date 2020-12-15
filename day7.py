@@ -62,36 +62,23 @@ def part_1(problem_input: List[str]):
 def part_2(problem_input: List[str]):
 	rules = parse_with_numbers(problem_input)
 
-	to_examine = [(1, "shiny gold", 1)] #how many, name, multiplier from "above" layer
-	total = 0
-	while to_examine:
-		print(to_examine)
-		print(total)
-		current = to_examine[0]
-		to_examine = to_examine[1:]
-		total += current[0] * current[2]
-		print(total)
-		for bag in rules[current[1]]:
-			print(rules[current[1]])
-			to_examine.append((bag[0], bag[1], current[0]))
+	to_examine = 0
+	bags = ["shiny gold"]
+	while to_examine < len(bags):
+		current = bags[to_examine]
+		to_examine += 1
+		for bag in rules[current]:
+			bags.extend([bag[1]]*bag[0])
 
 
-	return total
+	return len(bags) - 1 # don't include the shiny gold bag
 
 
 
 def main(problem_input):
-	# print(len(part_1(problem_input.split("\n")[:-1])))
+	print(len(part_1(problem_input.split("\n")[:-1])))
 
-	# print(part_2(problem_input.split("\n")[:-1]))
-
-	print(part_2("""shiny gold bags contain 2 dark red bags.
-dark red bags contain 2 dark orange bags.
-dark orange bags contain 2 dark yellow bags.
-dark yellow bags contain 2 dark green bags.
-dark green bags contain 2 dark blue bags.
-dark blue bags contain 2 dark violet bags.
-dark violet bags contain no other bags.""".split("\n")[:-1]))
+	print(part_2(problem_input.split("\n")[:-1]))
 
 
 if __name__ == '__main__':
